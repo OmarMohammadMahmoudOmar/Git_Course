@@ -17,6 +17,6 @@ git push 'RemoteName' 'BranchName' # send to github
 ```
 # Lesson 5
 ## To participate someone in a project by inviting him
-1. go to https://github.com/'Your github name'/'your github project'/collaboration
+1. go to github.com/'Your github name'/'your github project'/collaboration
 2. search that someone name
 3. add it clickong on 
