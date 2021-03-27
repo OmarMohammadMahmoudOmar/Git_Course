@@ -32,3 +32,21 @@ git config --global 'Key' "Value" # Edit something
 git config --global --unset "Key" # remove the value of some command
 git config --global --edit # edit the configurations in their file instead of your terminal
 ```
+
+# LESSON 8
+```sh
+ssh -T git@github.com # Enter your passowrd to get into your account
+```
+
+# lesson 9 -> Create repositiry from existing project
+```sh
+git init # to create .git folder
+git add readme.rm
+git commit -m "First commit"
+git remote add origin git@github.com:username/projectName.git # Enter you Public Key Password
+git push -u origin master
+```
+
+# Lesson 10 -> Create pull request, asking from the admins reviewing this code
+# Lesson 11 -> Create an alias
+git config global alias.yourAlias theCommandYouRepace
