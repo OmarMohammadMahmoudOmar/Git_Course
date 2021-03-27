@@ -49,4 +49,16 @@ git push -u origin master
 
 # Lesson 10 -> Create pull request, asking from the admins reviewing this code
 # Lesson 11 -> Create an alias
+```sh
 git config global alias.yourAlias theCommandYouRepace
+```
+
+# Lesson 12 -> Branching
+```sh
+git branch newBranchName # to create a new branch
+git branch -d branchName #see if that branched had been merged or not, if not deletes it
+git checkout branchName # switch to a branch
+git checkout -b newBranchName # create a branch and goes to it
+git branch -m branchNewName # Rename a branch
+git merge branchName # merga a specific branch
+```
