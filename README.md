@@ -81,4 +81,7 @@ git stash save "Message" # Put a message along with stashed filed
 git stash apply # pop but with no deleting
 git stash pop stash@{id} # rerurn a specific one, not the last, then delete
 git drop stash@{id}  # remove it
+git stash show # show all the files hidden
+git stash show stash@{id} # show all the files hidden within
+git stash cleart # remove all stashes
 ```
