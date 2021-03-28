@@ -71,10 +71,3 @@ git merge branchName
 git branch -d branchName # Delete it if you are done
 git push origin master # upload the updates you made
 ```
-
-# lesson 13 -> stash, how to set something not to upload
-```sh
-git stash # put things away in .git
-git stash list # see the list
-git stash pop # have them back
-```
