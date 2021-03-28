@@ -62,3 +62,10 @@ git checkout -b newBranchName # create a branch and goes to it
 git branch -m branchNewName # Rename a branch
 git merge branchName # merga a specific branch
 ```
+
+### To fuse your branch and Master Branch
+```sh
+git checkout master # go to master branch
+git merge branchName
+git branch -d branchName # Delete it if you are done
+```
