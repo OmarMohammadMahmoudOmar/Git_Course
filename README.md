@@ -48,6 +48,7 @@ git push -u origin master
 ```
 
 # Lesson 10 -> Create pull request, asking from the admins reviewing this code
+All in video
 # Lesson 11 -> Create an alias
 ```sh
 git config global alias.yourAlias theCommandYouRepace
@@ -68,4 +69,5 @@ git merge branchName # merga a specific branch
 git checkout master # go to master branch
 git merge branchName
 git branch -d branchName # Delete it if you are done
+git push origin master # upload the updates you made
 ```
