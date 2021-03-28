@@ -78,4 +78,5 @@ git stash # Put the added files to a box that won't be uploaded
 git stash list # see the stashed files buy Id
 git stash pop # return the stashed list back
 git stash save "Message" # Put a message along with stashed filed
+git stash apply
 ```
