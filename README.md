@@ -76,7 +76,9 @@ git push origin master # upload the updates you made
 ```sh
 git stash # Put the added files to a box that won't be uploaded
 git stash list # see the stashed files buy Id
-git stash pop # return the stashed list back
+git stash pop # return the stashed list back, then delete the stash
 git stash save "Message" # Put a message along with stashed filed
-git stash apply
+git stash apply # pop but with no deleting
+git stash pop stash@{id} # rerurn a specific one, not the last, then delete
+git drop stash@{id}  # remove it
 ```
