@@ -107,5 +107,8 @@ git add fileName -f # to force an ignored file to be add to the stage area
 ```sh
 git tag # show all the tags
 git tag v(version like v1.0) # create a tag
-git push origin tagVersion # Push files to a tag 
+git push origin tagVersion # Push files to a tag
+git tag -l "v1.*" # Search all tags that considred version 1
+git tag -d version # delete a version
+git push origin --delete version # show deleted one on github 
 ```
