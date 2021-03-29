@@ -72,7 +72,7 @@ git branch -d branchName # Delete it if you are done
 git push origin master # upload the updates you made
 ```
 
-# Lesson 13 -> Stash
+# Lesson 13 & 14 -> Stash
 ```sh
 git stash # Put the added files to a box that won't be uploaded
 git stash list # see the stashed files buy Id
@@ -84,4 +84,22 @@ git drop stash@{id}  # remove it
 git stash show # show all the files hidden
 git stash show stash@{id} # show all the files hidden within
 git stash cleart # remove all stashes
+```
+
+# Lesson 15 -> Restore & clean
+```sh
+git restore --staged fileName # Return a file after it has been added to the stage area
+git restore --staged * # return all
+git clean -n # show the files you want to delete
+git clean -f # remove the files
+```
+
+# Lesson 16 -> Reset
+```sh
+git reset --hard  HASH# reset that commit and delete the changes, Put the hash of the commit you want to be the head deleteing the commits above
+```
+
+# Lesson 16 -> Ignoring Files
+```sh
+git add fileName -f # to force an ignored file to be add to the stage area
 ```
