@@ -99,7 +99,13 @@ git clean -f # remove the files
 git reset --hard  HASH# reset that commit and delete the changes, Put the hash of the commit you want to be the head deleteing the commits above
 ```
 
-# Lesson 16 -> Ignoring Files
+# Lesson 17 -> Ignoring Files
 ```sh
 git add fileName -f # to force an ignored file to be add to the stage area
+```
+# Lesson 18 & 19 -> Tagging And Releasing
+```sh
+git tag # show all the tags
+git tag v(version like v1.0) # create a tag
+git push origin tagVersion # Push files to a tag 
 ```
